@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="element">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <div class="overlap-group">
+            <div class="text-wrapper">Yusuf Naufal Firdaus</div>
+            <img class="mask-group" src="https://c.animaapp.com/lQSI3Ole/img/mask-group@2x.png" />
+            <div class="div">Project</div>
+            <div class="text-wrapper-2">Contact</div>
+            <div class="text-wrapper-3">Blog</div>
+          </div>
+          <p class="p">Hi, I’m Yusuf Naufal Firdaus</p>
+          <p class="i-am-from-indonesia">
+            I am from Indonesia and I have been working as a designer and photography <br />for more than 2 years. I
+            have worked for my brother&#39;s company as a designer <br />and product photo. I have worked for my mother
+            as a designer and product <br />photo. I have worked as a wedding photographer 1 year ago. <br />And now
+            I&#39;m looking forward to collaborating with you!
+          </p>
+          <p class="photographer-and">Photographer and Designer Who Teaches<br />Photographer and Design on Youtube.</p>
+          <div class="text-wrapper-4">Selected My Career</div>
+          <div class="overlap-2">
+            <img class="untitled" src="https://c.animaapp.com/lQSI3Ole/img/untitled-1-1@2x.png" />
+            <div class="text-wrapper-5">Email Me</div>
+          </div>
+          <img class="instagram" src="https://c.animaapp.com/lQSI3Ole/img/instagram-1@2x.png" />
+          <img class="whatsapp" src="https://c.animaapp.com/lQSI3Ole/img/whatsapp-1@2x.png" />
+          <div class="group">
+            <div class="text-wrapper-6">Download CV</div>
+            <img class="unduh" src="https://c.animaapp.com/lQSI3Ole/img/unduh-2-1@2x.png" />
+          </div>
+          <img class="rectangle" src="https://c.animaapp.com/lQSI3Ole/img/rectangle-7.png" />
+          <div class="component">
+            <div class="overlap-group-2">
+              <div class="overlap-3">
+                <div class="text-wrapper-7">Photographer</div>
+                <img class="img" src="https://c.animaapp.com/lQSI3Ole/img/rectangle@2x.png" />
+                <img class="rectangle-2" src="https://c.animaapp.com/lQSI3Ole/img/rectangle-1@2x.png" />
+                <img class="vector" src="https://c.animaapp.com/lQSI3Ole/img/vector-1.svg" />
+                <img class="vector-2" src="https://c.animaapp.com/lQSI3Ole/img/vector-2.svg" />
+                <img class="vector-3" src="https://c.animaapp.com/lQSI3Ole/img/vector-3.svg" />
+              </div>
+              <div class="overlap-4">
+                <img class="IMG" src="https://c.animaapp.com/lQSI3Ole/img/img-2504sdadimg-2504-1@2x.png" />
+                <img class="IMG-sdadimg" src="https://c.animaapp.com/lQSI3Ole/img/img-0009sdadimg-0009-1@2x.png" />
+                <img class="IMG-2" src="https://c.animaapp.com/lQSI3Ole/img/img-0022sdadimg-0022-1@2x.png" />
+                <img class="IMG-3" src="https://c.animaapp.com/lQSI3Ole/img/img-0058sdadimg-0058-1@2x.png" />
+              </div>
+            </div>
+          </div>
+          <div class="component-2">
+            <div class="text-wrapper-8">Visit My Career</div>
+            <img
+              class="imgbin-photography"
+              src="https://c.animaapp.com/lQSI3Ole/img/imgbin-photography-camera-symbol-png-1@2x.png"
+            />
+          </div>
+          <div class="component-2">
+            <a href="isi gambar.html" class="text-wrapper-8" onclick="nextSlide()">Visit My Career</a>
+
+            <img
+              class="imgbin-photography"
+              src="https://c.animaapp.com/lQSI3Ole/img/imgbin-photography-camera-symbol-png-1@2x.png"
+            />
+          </div>
+          
+          <script>
+            let currentSlide = 0;
+            const slides = document.querySelectorAll(".slide");
+          
+            function nextSlide() {
+              slides[currentSlide].classList.remove("active-slide");
+              currentSlide = (currentSlide + 1) % slides.length;
+              slides[currentSlide].classList.add("active-slide");
+            }
+          </script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+:root {
+    --hijau: rgba(3, 128, 68, 1);
+    --abu-abu: rgba(196, 196, 196, 1);
+    --hiau-gelap: rgba(12, 88, 52, 1);
+    --system-colors-miscellaneous-bar-border: rgba(0, 0, 0, 0.3);
+  }
+  
+  /*
+  
+  To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+  
+  <body data-system-colors-mode="light">
+      <!-- the rest of your content -->
+  </body>
+  
+  You can apply the theme on any DOM node, not just the `body`
+  
+  */
+  
+  [data-system-colors-mode="light"] {
+    --system-colors-miscellaneous-bar-border: rgba(0, 0, 0, 0.3);
+  }
+  
+  [data-system-colors-mode="dark"] {
+    --system-colors-miscellaneous-bar-border: rgba(255, 255, 255, 0.15);
+  }
+  
+  [data-system-colors-mode="dark-elevated"] {
+    --system-colors-miscellaneous-bar-border: rgba(255, 255, 255, 0.15);
+  }
+  
+  [data-system-colors-mode="IC-light"] {
+    --system-colors-miscellaneous-bar-border: rgba(0, 0, 0, 0.3);
+  }
+  
+  [data-system-colors-mode="IC-dark"] {
+    --system-colors-miscellaneous-bar-border: rgba(255, 255, 255, 0.15);
+  }
+  
+  [data-system-colors-mode="IC-dark-elevated"] {
+    --system-colors-miscellaneous-bar-border: rgba(255, 255, 255, 0.15);
+  }
+  
